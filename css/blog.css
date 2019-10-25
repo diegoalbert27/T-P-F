@@ -1,0 +1,70 @@
+#blog {
+    margin-top: 15px;
+}
+
+#blog h2, h3 {
+    text-align: center;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 10px;
+    background: #e6e9e9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+#blog .contenedor .radius {
+    background: #000;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#blog .contenedor .radius img {
+    width: 100%;
+    max-width: 280px;
+}
+
+#blog .contenedor .lista {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+#blog .contenedor .lista > ul {
+    list-style: none;
+}
+
+#blog .contenedor .lista > ul > li {
+    padding: 5px;
+}
+
+.buttom2 {
+    display: block;
+    color: #fff;
+    background: blueviolet;
+    width: 90px;
+    margin: 0 auto;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06) 
+}
+
+a:hover {
+    background: #000;
+}
+
+@media (min-width:1024px) {
+    #blog .contenedor {
+        width: 100%;
+    }
+}
